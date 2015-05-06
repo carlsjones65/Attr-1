@@ -12,6 +12,10 @@ public class Attr {
 	/* ---------------------------------------------------------------------- */
 
 	// One-parameter constructor; I know the name, I don't know the value
+	//these first two constructors demonstrate overloading
+	//they have the same name, but different while tly wsignatures
+	//the first constructor calls for a name only while the
+	//second calls for both a name and a value
 	public Attr(String name) {
 		this.name = name;
 	}

@@ -19,6 +19,12 @@ public class ScreenColor {
 		  else if (colorDescription.equals("red"))
 			  return (colorValue = 0xff0000);
 		  
+		  if (colorDescription.equals("chartreuse"))
+			  return (colorValue = #00FF00);
+		  else if (colorDescription.equals("crimson"))
+			  return (colorValue = #FF0000);
+		  
+		  
 		  // We have to return something; this isn't really the right way to do it!
 		  return 0;
 	  }
