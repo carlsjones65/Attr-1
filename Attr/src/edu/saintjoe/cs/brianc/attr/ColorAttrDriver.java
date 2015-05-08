@@ -3,7 +3,7 @@ package edu.saintjoe.cs.brianc.attr;
 public class ColorAttrDriver {
 public static void main(String[] args ) {
 		
-		ColorAttr testOne, testTwo, testThree;
+		ColorAttr testOne, testTwo, testThree,testFive, testSix;
 		Attr testFour;
 		
 		// We need this object for the third ColorAttr constructor
@@ -26,6 +26,15 @@ public static void main(String[] args ) {
 		// Number four
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
+		
+		// Number five
+		testFive = new ColorAttr("ColorFive", "chartreuse");
+		System.out.println(testFive.toString());
+		
+		//Number six
+		testSix = new ColorAttr("ColorSix", "crimson");
+		System.out.println(testSix.toString());
+		
 		
 	} // end main
 
